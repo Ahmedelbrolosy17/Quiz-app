@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.quiz{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px auto;
+    width: 55%;
+}
+.info {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+}
+.info .category {
+    flex: 1;
+}
+.info .questionsNum{
+    flex: 1;
+    text-align: right;
+}
+.question{
+    background-color: white;
+    padding: 5px;
+    margin: 10px auto;
+}
+.question h2{
+    margin: 0;
+}
+.answers {
+    background-color: white;
+    padding: 5px;
+}
+.answers .answer{
+    margin: 10px 0;
+}
+.submit {
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #9d9df3;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+.track {
+    display: flex;
+    padding: 5px;
+}
+.track .bullets{
+    display: flex;
+    flex: 1;
+}
+.track .bullets span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 2px;
+}
+.track .bullets span.on{
+    background-color: #9d9df3;
+}
+.track .timeOut{
+    padding: 0 10px;
+}
+.result{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+.result span{
+    color: #34f634;
+    font-weight: bold;
+    font-size: 20px;
+}
